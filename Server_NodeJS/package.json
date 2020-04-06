@@ -1,0 +1,19 @@
+{
+  "name": "server_nodejs",
+  "version": "1.0.0",
+  "description": "Book management server",
+  "main": "bookmanagement.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prasaddevadiga/BookManagement.git"
+  },
+  "author": "Prasad Devadiga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prasaddevadiga/BookManagement/issues"
+  },
+  "homepage": "https://github.com/prasaddevadiga/BookManagement#readme"
+}
