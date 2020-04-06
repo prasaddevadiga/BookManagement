@@ -15,5 +15,19 @@
   "bugs": {
     "url": "https://github.com/prasaddevadiga/BookManagement/issues"
   },
-  "homepage": "https://github.com/prasaddevadiga/BookManagement#readme"
+  "homepage": "https://github.com/prasaddevadiga/BookManagement#readme",
+  "dependencies": {
+    "@types/express": "^4.17.4",
+    "body-parser": "^1.19.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "jade": "^1.11.0",
+    "json": "^9.0.6",
+    "logger": "0.0.1",
+    "method-override": "^3.0.0",
+    "nano": "^8.2.2",
+    "serve-favicon": "^2.5.0",
+    "url": "^0.11.0"
+  }
 }
