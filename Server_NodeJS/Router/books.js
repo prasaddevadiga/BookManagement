@@ -4,7 +4,7 @@ const mysql = require("mysql");
 const myConnection = require("../connection");
 
 Router.get("/", (req, res) => {
-    myConnection.query("SELECT * from books", (err, rows, fields) => {
+    myConnection.query("SELECT BookID, title, auther, description from books", (err, rows, fields) => {
         if (err) {
             console.log(err)
             res.send({"error": "Could not find any record"});
