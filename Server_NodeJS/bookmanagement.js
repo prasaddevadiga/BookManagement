@@ -1,12 +1,12 @@
 var express = require('express');
 var Application = express();
 var bodyParser = require("body-parser");
-var bookRouter = require("./Router/books")
-var userRouter = require("./Router/user")
+var bookRouter = require("./Router/Books/books")
+var userRouter = require("./Router/User/user")
 
 Application.use(bodyParser.json());
 Application.use(bodyParser.urlencoded({ extended : true }));
-Application.use('/books', bookRouter);
-Application.use("/user", userRouter);
+Application.use('/api/books', bookRouter);
+Application.use("/api/user", userRouter);
 Application.listen("3000")
 

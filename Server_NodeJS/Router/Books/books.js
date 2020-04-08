@@ -1,7 +1,7 @@
 var express = require("express");
 const Router = express.Router();
 const mysql = require("mysql");
-const myConnection = require("../connection");
+const myConnection = require("../../connection");
 
 Router.get("/", (req, res) => {
     myConnection.query("SELECT BookID, title, auther, description from books", (err, rows, fields) => {
