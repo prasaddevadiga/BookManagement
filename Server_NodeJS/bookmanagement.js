@@ -8,5 +8,7 @@ Application.use(bodyParser.json());
 Application.use(bodyParser.urlencoded({ extended : true }));
 Application.use('/api/books', bookRouter);
 Application.use("/api/user", userRouter);
-Application.listen("3000")
+Application.listen("3000", () => {
+    console.log("App listening to 3000")
+});
 

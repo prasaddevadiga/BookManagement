@@ -1,0 +1,3 @@
+- Start the server using either of the below command 
+        - node bookmanagement.js 
+        - nodemon bookmanagement.js 
