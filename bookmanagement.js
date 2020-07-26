@@ -8,7 +8,8 @@ Application.use(bodyParser.json());
 Application.use(bodyParser.urlencoded({ extended : true }));
 Application.use('/api/books', bookRouter);
 Application.use("/api/user", userRouter);
-Application.listen("3000", () => {
+const PORT = process.env.PORT || 3000;
+Application.listen(PORT, () => {
     console.log("App listening to 3000")
 });
 
