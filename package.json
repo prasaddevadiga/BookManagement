@@ -22,7 +22,7 @@
     "body-parser": "^1.19.0",
     "cryptr": "^6.0.2",
     "errorhandler": "^1.5.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-session": "^1.17.0",
     "jade": "^1.11.0",
     "json": "^9.0.6",
